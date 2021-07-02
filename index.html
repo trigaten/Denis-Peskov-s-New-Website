@@ -1,0 +1,61 @@
+---
+---
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/media/7445414.jpg" id="left" alt="" class="img-thumbnail img-fluid">
+            </div>
+            <div class="col-md-6">
+                <div id="right" style="display:block">
+                    <h1>Hi, I am Denis Peskov</h1>
+                    <p>
+                        I am a PhD student studying computational linguistics (or NLP) at the University of
+                        Maryland with Professor Jordan Boyd-Graber. My research interest is leveraging domain experts to
+                        create meaningful and accurate datasets. I apply this to the domains of question answering,
+                        machine
+                        translation, and computational social science.
+                    </p>
+
+                    <h2>
+                        Education
+                    </h2>
+                    <p>
+                        {% for item in site.data.edu %}
+                        <div>{{item.name}}</div><br>
+                        {% endfor %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <h3>Industry Experience</h3>
+                <p>
+                    {% for item in site.data.ind_exp %}
+                    <div>{{item.name}}</div>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h3>Languages</h3>
+                <p>
+                    {% for item in site.data.lang %}
+                    <div>{{item.name}}: {{item.values}}</div>
+                    {% endfor %}
+
+                    (decreasing order of fluency)
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // $(document).ready(function () {
+    //     $("#right").toggle("slide");
+    //     $("#left").toggle("slide");
+    // });
+</script>
+

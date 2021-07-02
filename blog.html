@@ -1,0 +1,23 @@
+---
+---
+<div class="container">
+    <h1>Blog</h1>
+    <hr>
+    <div class="row">
+
+        {% for post in site.posts %}
+        <div class="col-md-6 mb-2">
+            <a href="{{post.url}}" style="text-decoration: none;color:black">
+                <h1>{{post.title}}</h1>
+                <h3>
+                    <span class="text-muted">{{ post.excerpt | strip_html }}</span>
+                    <a style="float:right" class="mr-5" href="{{post.url}}"><i class="fas fa-arrow-right" style="color: navy;"></i></a>
+                </h3>
+
+            </a>
+
+        </div>
+
+        {% endfor %}
+    </div>
+</div>

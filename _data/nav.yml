@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Technical Blog
+  link: /blog.html
+- name: Publications
+  link: /publications.html

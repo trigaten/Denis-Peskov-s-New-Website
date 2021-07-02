@@ -1,0 +1,4 @@
+- name: Human
+  values:  English, Russian, German, Spanish
+- name: 01100011 01110011
+  values: Python, Java, Coq, C++, R
