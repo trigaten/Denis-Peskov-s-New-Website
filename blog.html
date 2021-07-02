@@ -7,7 +7,7 @@
 
         {% for post in site.posts %}
         <div class="col-md-6 mb-2">
-            <a href="{{post.url}}" style="text-decoration: none;color:black">
+            <a href="{{site.baseurl}}{{post.url}}" style="text-decoration: none;color:black">
                 <h1>{{post.title}}</h1>
                 <h3>
                     <span class="text-muted">{{ post.excerpt | strip_html }}</span>
