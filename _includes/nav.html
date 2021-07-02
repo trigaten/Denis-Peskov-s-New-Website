@@ -14,7 +14,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 {% for item in site.data.nav %}
                 <li class="nav-item">
-                    <a class="nav-link active" href="{{ site.url }}/{{ item.link }}">{{ item.name }}</a>
+                    <a class="nav-link active" href="{{ baseurl.url }}/{{ item.link }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
             </ul>
