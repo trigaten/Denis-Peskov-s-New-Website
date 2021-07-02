@@ -17,7 +17,7 @@ For back-end, most low-level computer programs are built on C, such as the opera
 Java is a popular historical choice for object-oriented programming.  JavaScript is a popular choice for web design.  
 Python came along as a very high level (aka easy) language that removed most low level considerations (memory usage, pointers, etc.)
 Unsurprisingly, Python became popular in our current computational paradigm due to ease of use.  And when it became popular, it became VERY popular.  So MOST useful libraries are built for Python, at least for NLP.
-Historically, it was somewhat slower than Java and C, so companies would prototype in Python and then rewrite in C/Java.  But with populatiry, many under-the-hood calculations have been optimized so this is less of a factor now.
+Historically, it was somewhat slower than Java and C, so companies would prototype in Python and then rewrite in C/Java.  But with popularity, many under-the-hood calculations have been optimized so this is less of a factor now.
 For interactive use (to write one line and see if it works), one can use Jupyter Notebook.  
 
 2. The command line is useful for file management and automation.  Historically, coding was done in the command line, and with general adoption, the simpler Graphical User Interface became the norm for most users.  For example, Adobe will not let you split up a PDF through their interface.  But if you install a simple command line  program, you can quickly split up the PDF. 
