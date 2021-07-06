@@ -1,15 +1,15 @@
 ---
 ---
 
-<div class="jumbotron">
+<div class="jumbotron mb-0">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/media/7445414.jpg" id="left" alt="" class="img-thumbnail img-fluid">
+            <div class="col-md-6 text-center">
+                <img src="assets/media/dp_headshot.jpg" style="max-height:30rem" id="left" alt="" class="img-thumbnail img-fluid">
             </div>
             <div class="col-md-6">
                 <div id="right" style="display:block">
-                    <h1>Hi, I am Denis Peskov</h1>
+                    <h1 class="text-center mb-2">Hi, I am Denis Peskov</h1>
                     <p>
                         I am a PhD student studying computational linguistics (or NLP) at the University of
                         Maryland with Professor Jordan Boyd-Graber. My research interest is leveraging domain experts to
@@ -23,15 +23,15 @@
                     </h2>
                     <p>
                         {% for item in site.data.edu %}
-                        <div>{{item.name}}</div><br>
+                        <div class="">{{item.name}}</div><br class="">
                         {% endfor %}
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row mt-2">
+        <div class="row mt-md-2">
             <div class="col-md-6">
-                <h3>Industry Experience</h3>
+                <h4 class="mt-md-5">Industry Experience</h4>
                 <p>
                     {% for item in site.data.ind_exp %}
                     <div>{{item.name}}</div>
@@ -39,7 +39,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <h3>Languages</h3>
+                <h4 class="mt-md-5">Languages</h4>
                 <p>
                     {% for item in site.data.lang %}
                     <div>{{item.name}}: {{item.values}}</div>
