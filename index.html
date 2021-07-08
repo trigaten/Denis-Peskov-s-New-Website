@@ -5,48 +5,47 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
-                <img src="assets/media/dp_headshot.jpg" id="headshot" style="max-width:20rem;" id="left" alt="" class="img-thumbnail img-fluid">
+                <img src="assets/media/dp_headshot.jpg" id="headshot" style="max-width:20rem;" id="left" alt=""
+                    class="img-thumbnail img-fluid">
+                <h1 class="mb-2 mt-2">Hi, I am Denis Peskov</h1>
+                <p class="text-left">
+                    I am a PhD student studying computational linguistics (or NLP) at the University of
+                    Maryland with Professor Jordan Boyd-Graber. My research interest is leveraging domain experts to
+                    create meaningful and accurate datasets. I apply this to the domains of question answering,
+                    machine
+                    translation, and computational social science.
+                </p>
             </div>
-            <div class="col-md-6">
-                <div id="right">
-                    <h1 class="text-center mb-2">Hi, I am Denis Peskov</h1>
-                    <p>
-                        I am a PhD student studying computational linguistics (or NLP) at the University of
-                        Maryland with Professor Jordan Boyd-Graber. My research interest is leveraging domain experts to
-                        create meaningful and accurate datasets. I apply this to the domains of question answering,
-                        machine
-                        translation, and computational social science.
-                    </p>
-
+            <div class="col-md-6 d-flex flex-column">
+                <div class="my-auto">
                     <h2>
                         Education
                     </h2>
                     <p>
                         {% for item in site.data.edu %}
-                        <div class="">{{item.name}}</div><br class="">
-                        {% endfor %}
+                    <div class="">{{item.name}}</div>
+                    <br class="">
+                    {% endfor %}
                     </p>
                 </div>
-            </div>
-        </div>
-        <div class="row mt-md-2">
-            <div class="col-md-6">
-                <h4 class="mt-md-5">Industry Experience</h4>
-                <p>
-                    {% for item in site.data.ind_exp %}
+                <div class="my-auto">
+                    <h2 class="">Industry Experience</h2>
+                    <p>
+                        {% for item in site.data.ind_exp %}
                     <div>{{item.name}}</div>
                     {% endfor %}
-                </p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="mt-md-5">Languages</h4>
-                <p>
-                    {% for item in site.data.lang %}
+                    </p>
+                </div>
+                <div class="my-auto">
+                    <h2 class="">Languages</h2>
+                    <p>
+                        {% for item in site.data.lang %}
                     <div>{{item.name}}: {{item.values}}</div>
                     {% endfor %}
 
                     (decreasing order of fluency)
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -63,5 +62,3 @@
     // $("#headshot").animate({left:'slide'},350);
     // $('#headshot').toggle("slide", { direction: "left"}, -1000);
 </script>
-
-
