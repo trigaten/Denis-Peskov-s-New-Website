@@ -15,9 +15,13 @@ avatar:  https://avatars0.githubusercontent.com/u/7445414?s=400&v=4
 #
 
 email: dpeskov.work at gmail.com
-github: denispeskov
-linkedin: denis-peskov
+github: https://github.com/DenisPeskov
+linkedin: https://www.linkedin.com/in/denis-peskov/
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   - scope:
@@ -27,6 +31,7 @@ defaults:
   - scope:
       path: ""
     values:
+      image: "assets/media/dp_headshot.jpg"
       layout: "default"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
