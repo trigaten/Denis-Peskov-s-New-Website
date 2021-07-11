@@ -5,20 +5,20 @@
     <h1>Blog</h1>
     <hr>
     <div class="row">
-
+        <!-- add each post to the page (adds the title, excerpt, and link) -->
         {% for post in site.posts %}
         <div class="col-md-6 mb-2">
             <a href="{{site.baseurl}}{{post.url}}" style="text-decoration: none;color:black">
                 <h1>{{post.title}}</h1>
                 <h3>
+                    <!-- strip_html removes the <p> tags surrounding the excerpt -->
                     <span class="text-muted">{{ post.excerpt | strip_html }}</span>
-                    <a style="float:right" class="mr-5" href="{{site.baseurl}}{{post.url}}"><i class="fas fa-arrow-right" style="color: navy;"></i></a>
+                    <!-- little arrow image -->
+                    <a style="float:right" class="mr-5" href="{{site.baseurl}}{{post.url}}"><i
+                            class="fas fa-arrow-right" style="color: navy;"></i></a>
                 </h3>
-
             </a>
-
         </div>
-
         {% endfor %}
     </div>
 </div>
