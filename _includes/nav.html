@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
         <a href="{{site.baseurl}}" class="navbar-brand">
-            <h1 class="m-0 p-0" style="font-size: 1.5rem;">Denis Peskov</h1>
-            <div class="text-muted mt-0" style="font-size: 1rem;">NLP Researcher</div>
+            <h1 class="m-0 p-0" style="font-size: 1.5rem;">{{site.name}}</h1>
+            <div class="text-muted mt-0" style="font-size: 1rem;">{{site.description}}</div>
         </a>
         <!-- collapser -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -19,10 +19,10 @@
                 {% endfor %}
             </ul>
             <span class="ml-1">
-                <a class="btn btn-social-icon btn-github m-auto" href="https://github.com/DenisPeskov"><i class="fab fa-github"></i></a>
+                <a class="btn btn-social-icon btn-github m-auto" href="{{site.github}}"><i class="fab fa-github"></i></a>
             </span>
             <span class="ml-1">
-                <a class="btn btn-social-icon btn-linkedin m-auto" href="https://www.linkedin.com/in/denis-peskov"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-linkedin m-auto" href="{{site.linkedin}}"><i class="fab fa-linkedin"></i></a>
             </span>
             <span class="ml-1">
                 <a class="btn btn-social-icon btn-github m-auto" href="mailto:{{site.email}}"><i class="fas fa-envelope"></i></a>
