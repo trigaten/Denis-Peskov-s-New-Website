@@ -9,14 +9,15 @@
         {% for post in site.posts %}
         <div class="col-md-6 mb-2">
             <a href="{{site.baseurl}}{{post.url}}" style="text-decoration: none;color:black">
-                <h1>{{post.title}}</h1>
-                <h3>
+                <!-- the title of the post -->
+                <h2>{{post.title}}</h2>
+                <h4>
                     <!-- strip_html removes the <p> tags surrounding the excerpt -->
                     <span class="text-muted">{{ post.excerpt | strip_html }}</span>
                     <!-- little arrow image -->
                     <a style="float:right" class="mr-5" href="{{site.baseurl}}{{post.url}}"><i
                             class="fas fa-arrow-right" style="color: navy;"></i></a>
-                </h3>
+                </h4>
             </a>
         </div>
         {% endfor %}
