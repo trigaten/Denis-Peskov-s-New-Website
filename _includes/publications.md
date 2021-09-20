@@ -1,3 +1,4 @@
+-  [**Adapting Entities Across Languages and Cultures**](http://users.umiacs.umd.edu/~jbg//docs/2021_emnlp_adaptation.pdf) (Findings of EMNLP 2021) <br />  **Denis Peskov**, Viktor Hangya, Jordan Boyd-Graber, and Alexander Fraser
 
 -  [**ContraCAT: Contrastive Coreference Analytical Templates for Machine Translation**](http://cistern.cis.lmu.de/contracat/) (COLING 2020) <br /> Dario Stojanovski†, Benno Krojer†, **Denis Peskov**†, and Alexander Fraser († Equal Effort)
 
