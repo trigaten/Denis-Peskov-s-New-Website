@@ -3,7 +3,7 @@ title: A Great Summer Party
 ---
 _I was thirty. Before me stretched the portentous, menacing road of a new decade._
 
-![](https://user-images.githubusercontent.com/7445414/178367612-1320ed9b-9062-4dea-bf61-c623ce92fa0b.png?raw=true|width=100)
+![](https://user-images.githubusercontent.com/7445414/178367612-1320ed9b-9062-4dea-bf61-c623ce92fa0b.png?raw=true|width=75)
 
 **When:** July 16th 8 PM - 11 PM
 
