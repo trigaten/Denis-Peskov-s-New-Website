@@ -13,4 +13,4 @@ _I was thirty. Before me stretched the portentous, menacing road of a new decade
 
 **Where** 44 Pine
 
-**Dress** Dress flapper chic or a fedora will be provided for you.  
+**Wear** Dress flapper chic or a fedora will be provided for you.  
