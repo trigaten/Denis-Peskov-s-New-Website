@@ -14,3 +14,17 @@ _I was thirty. Before me stretched the portentous, menacing road of a new decade
 **Where** 44 Pine
 
 **Wear** Dress flapper chic or a fedora will be provided for you.  
+
+**Agenda**
+
+8:15 Archery
+
+9:00 The Great Hunt
+
+9:10 Snakeoil
+
+9:30 Toast
+
+9:45 Poetry Competition
+
+10:00 Networking
