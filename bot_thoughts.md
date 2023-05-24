@@ -1,5 +1,6 @@
 ---
 title: Credible Without Credit
-layout: default permalink: /chatbot_thoughts/
+layout: default 
+permalink: /bot_thoughts/
 ---
 Data TBD
