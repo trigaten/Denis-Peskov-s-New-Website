@@ -15,10 +15,7 @@ permalink: /bot_thoughts/
 
 # [Talk To ChatGPT Yourself](https://chat.openai.com/)
 
-
-<details>
-<summary> *Citation* </summary>
-<br>
+# Cite
 @inproceedings{peskoff-stewart-2023-credible,
     title = "Credible without Credit: Domain Experts Assess Generative Language Models",
     author = "Peskoff, Denis  and
@@ -32,5 +29,4 @@ permalink: /bot_thoughts/
     pages = "427--438",
     abstract = "Language models have recently broken into the public consciousness with the release of the wildly popular ChatGPT. Commentators have argued that language models could replace search engines, make college essays obsolete, or even write academic research papers. All of these tasks rely on accuracy of specialized information which can be difficult to assess for non-experts. Using 10 domain experts across science and culture, we provide an initial assessment of the coherence, conciseness, accuracy, and sourcing of two language models across 100 expert-written questions. While we find the results are consistently cohesive and concise, we find that they are mixed in their accuracy. These results raise questions of the role language models should play in general-purpose and expert knowledge seeking.",
 }
-</details>
 
