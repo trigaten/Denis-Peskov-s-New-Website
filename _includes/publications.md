@@ -1,3 +1,5 @@
+-  [**Credible Without Credit: Domain Experts Assess Generative Language Models**](https://aclanthology.org/2023.acl-short.37.pdf) (ACL 2023) <br />  Denis Peskoff, Brandon Stewart
+ 
 -  [**Is Automated Topic Model Evaluation Broken?: The Incoherence of Coherence**](https://arxiv.org/abs/2107.02173) (NeurIPS 2021) <br />  Alexander Hoyle†, Pranav Goel†, **Denis Peskov**†, Andrew Hian-Cheong†, Jordan Boyd-Graber, and Philip Resnik († Equal Effort)
 
 -  [**Adapting Entities Across Languages and Cultures**](http://users.umiacs.umd.edu/~jbg//docs/2021_emnlp_adaptation.pdf) (Findings of EMNLP 2021) <br />  **Denis Peskov**, Viktor Hangya, Jordan Boyd-Graber, and Alexander Fraser
