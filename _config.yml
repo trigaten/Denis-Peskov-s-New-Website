@@ -19,9 +19,11 @@ github: https://github.com/DenisPeskoff
 linkedin: https://www.linkedin.com/in/denis-peskoff/
 
 plugins:
-  - jekyll-feed
+  - jekyll-feedbreakthis
   - jekyll-sitemap
   - jekyll-seo-tag
+
+break:
 
 defaults:
   - scope:
