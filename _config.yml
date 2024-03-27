@@ -31,7 +31,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "assets/media/dp_headshot.jpg"
+      image: "assets/media/peskoff_headshot.jpg"
       layout: "default"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
