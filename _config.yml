@@ -19,11 +19,9 @@ github: https://github.com/DenisPeskoff
 linkedin: https://www.linkedin.com/in/denis-peskoff/
 
 plugins:
-  - jekyll-feedbreakthis
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-break:
 
 defaults:
   - scope:
@@ -33,7 +31,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "assets/media/break.jpg"
+      image: "assets/media/peskoff_headshot.jpg"
       layout: "default"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
