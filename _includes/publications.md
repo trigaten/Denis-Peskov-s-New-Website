@@ -1,3 +1,7 @@
+-  [**The Rise of AI Generated Content in Wikpedia**](https://aclanthology.org/2024.wikinlp-1.12.pdf) (EMNLP: Advancing Natural Language Processing for Wikipedia 2024) <br />  Creston Brooks, Samuel Eggert, **Denis Peskoff** 
+
+-  [**More Victories, Less Cooperation: Assessing Cicero's Diplomacy Play**](https://aclanthology.org/2024.acl-long.672.pdf) (ACL 2024) <br />Wichayaporn Wongkamjan, Feng Gu, Yanze Wang, Ulf Hermjakob, Jonathan May, Brandon M Stewart, Jonathan K Kummerfeld, **Denis Peskoff**, Jordan Lee Boyd-Graber
+
 -  [**GPT Deciphering Fedspeak: Quantifying Dissent Among Hawks and Doves**](https://aclanthology.org/2023.findings-emnlp.434.pdf) (EMNLP-Findings 2023) <br />  Denis Peskoff, Adam Visokay, Sander Schulhoff, Benjamin Wachspress, Alan Blinder, Brandon Stewart
  
 -  [**Credible Without Credit: Domain Experts Assess Generative Language Models**](https://aclanthology.org/2023.acl-short.37.pdf) (ACL 2023) <br />  Denis Peskoff, Brandon Stewart
