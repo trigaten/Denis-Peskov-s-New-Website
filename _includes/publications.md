@@ -2,6 +2,8 @@
 
 -  [**More Victories, Less Cooperation: Assessing Cicero's Diplomacy Play**](https://aclanthology.org/2024.acl-long.672.pdf) (ACL 2024) <br />Wichayaporn Wongkamjan, Feng Gu, Yanze Wang, Ulf Hermjakob, Jonathan May, Brandon M Stewart, Jonathan K Kummerfeld, **Denis Peskoff**, Jordan Lee Boyd-Graber
 
+-  [**The Prompt Report: A Systematic Survey of Prompting Techniques**](https://arxiv.org/abs/2406.06608) (under review) Sander Schulhoff, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Liu, Chenglei Si, Yinheng Li, Aayush Gupta, HyoJung Han, Sevien Schulhoff, Pranav Sandeep Dulepet, Saurav Vidyadhara, Dayeon Ki, Sweta Agrawal, Chau Pham, Gerson Kroiz, Feileen Li, Hudson Tao, Ashay Srivastava, Hevander Da Costa, Saloni Gupta, Megan L. Rogers, Inna Goncearenco, Giuseppe Sarli, Igor Galynker, **Denis Peskoff**, Marine Carpuat, Jules White, Shyamal Anadkat, Alexander Hoyle, Philip Resnik
+
 -  [**GPT Deciphering Fedspeak: Quantifying Dissent Among Hawks and Doves**](https://aclanthology.org/2023.findings-emnlp.434.pdf) (EMNLP-Findings 2023) <br />  **Denis Peskoff**, Adam Visokay, Sander Schulhoff, Benjamin Wachspress, Alan Blinder, Brandon Stewart
  
 -  [**Credible Without Credit: Domain Experts Assess Generative Language Models**](https://aclanthology.org/2023.acl-short.37.pdf) (ACL 2023) <br />  **Denis Peskoff**, Brandon Stewart
